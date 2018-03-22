@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.yanirayanes.dw.MainActivity">
+
+    <TextView
+        android:id="@+id/puerta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Puerta"
+        android:layout_marginTop="25sp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/Pista"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="\n P I S T A \n D E \n B A I L E \n"
+        android:layout_below="@id/puerta"
+        android:layout_marginLeft="50sp"
+        android:layout_marginTop="30sp"
+        android:layout_alignParentLeft="true"
+        />
+
+    <Button
+        android:id="@+id/Mesa1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="M E S A 1"
+        android:layout_below="@id/puerta"
+        android:layout_marginRight="50sp"
+        android:layout_marginTop="50sp"
+        android:layout_alignParentRight="true"
+        />
+
+    <TextView
+        android:id="@+id/Inv5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/Mesa1"
+        android:layout_below="@id/Mesa1"
+        android:layout_marginLeft="25sp"
+        android:text="Gaby"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/Inv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/Inv3"
+        android:layout_toEndOf="@+id/Inv2"
+        android:text="Hugo"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/Inv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/Mesa1"
+        android:layout_alignBottom="@+id/Mesa1"
+        android:layout_toStartOf="@+id/Mesa1"
+        android:text="Karla"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/Inv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Inv4"
+        android:layout_alignEnd="@+id/Mesa1"
+        android:layout_below="@id/puerta"
+        android:layout_marginTop="35dp"
+        android:text="Regina"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/Inv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Inv4"
+        android:layout_alignStart="@+id/Mesa1"
+        android:layout_below="@id/puerta"
+        android:layout_marginTop="35dp"
+        android:text="Sebas"
+        android:textSize="12sp" />
+    <Button
+        android:id="@+id/Mesa2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="M E S A 2"
+        android:layout_below="@id/puerta"
+        android:layout_marginRight="50sp"
+        android:layout_marginTop="350sp"
+        android:layout_alignParentRight="true"
+        />
+
+    <TextView
+        android:id="@+id/Inv52"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/Mesa2"
+        android:layout_below="@id/Mesa2"
+        android:layout_marginLeft="25sp"
+        android:text="Madrina"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/Inv42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/Inv32"
+        android:layout_toEndOf="@+id/Inv22"
+        android:text="Suegra"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/Inv32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/Mesa2"
+        android:layout_alignBottom="@+id/Mesa2"
+        android:layout_toStartOf="@+id/Mesa2"
+        android:text="Suegro"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/Inv22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Inv42"
+        android:layout_alignEnd="@+id/Mesa2"
+        android:layout_below="@id/puerta"
+        android:layout_marginTop="335dp"
+        android:text="Esposa"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/Inv12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Inv42"
+        android:layout_alignStart="@+id/Mesa2"
+        android:layout_below="@id/puerta"
+        android:layout_marginTop="335dp"
+        android:text="Douglas"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/Mesa3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="M E S A 3"
+        android:layout_below="@id/puerta"
+        android:layout_marginLeft="50sp"
+        android:layout_marginTop="350sp"
+        android:layout_alignParentLeft="true"
+        />
+
+    <TextView
+        android:id="@+id/Inv53"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/Mesa3"
+        android:layout_below="@id/Mesa3"
+        android:layout_marginLeft="25sp"
+        android:text="Obdulio"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/Inv43"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/Inv33"
+        android:layout_toEndOf="@+id/Inv23"
+        android:text="Carlos"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/Inv33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/Mesa3"
+        android:layout_alignBottom="@+id/Mesa3"
+        android:layout_toStartOf="@+id/Inv13"
+        android:text="Sara"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/Inv23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Inv43"
+        android:layout_alignEnd="@+id/Mesa3"
+        android:layout_below="@id/puerta"
+        android:layout_marginTop="335dp"
+        android:text="Jose"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/Inv13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Inv43"
+        android:layout_alignStart="@+id/Mesa3"
+        android:layout_below="@id/puerta"
+        android:layout_marginTop="335dp"
+        android:text="Julie"
+        android:textSize="12sp" />
+    <Button
+        android:id="@+id/Mesa4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="M E S A 4"
+        android:layout_below="@id/puerta"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="190sp"
+        />
+
+    <TextView
+        android:id="@+id/Inv54"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/Mesa4"
+        android:layout_below="@id/Mesa4"
+        android:layout_marginLeft="25sp"
+        android:text="Borracho1"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/Inv44"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/Inv34"
+        android:layout_toEndOf="@+id/Inv24"
+        android:text="Borracho2"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/Inv34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/Mesa4"
+        android:layout_alignBottom="@+id/Mesa4"
+        android:layout_toStartOf="@+id/Mesa4"
+        android:text="Nadie"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/Inv24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Inv44"
+        android:layout_alignEnd="@+id/Mesa4"
+        android:layout_below="@id/puerta"
+        android:layout_marginTop="175dp"
+        android:text="Nadie"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/Inv15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Inv44"
+        android:layout_alignStart="@+id/Mesa4"
+        android:layout_below="@id/puerta"
+        android:layout_marginTop="175dp"
+        android:text="Pedro"
+        android:textSize="12sp" />
+
+</RelativeLayout>
